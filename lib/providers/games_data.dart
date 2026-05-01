@@ -1,0 +1,68 @@
+import '../models/game.dart';
+
+final List<Game> catalogoGames = [
+  Game(
+    id: '1',
+    nome: 'Zelda: Breath of the Wild',
+    descricao: 'Explore um mundo aberto épico cheio de aventuras e mistérios.',
+    preco: 299.90,
+    genero: 'Aventura',
+    emoji: '🗡️',
+  ),
+  Game(
+    id: '2',
+    nome: 'Minecraft',
+    descricao: 'Construa, explore e sobreviva em um mundo de blocos infinito.',
+    preco: 149.90,
+    genero: 'Sandbox',
+    emoji: '⛏️',
+  ),
+  Game(
+    id: '3',
+    nome: 'FIFA 24',
+    descricao: 'O simulador de futebol mais realista do mundo.',
+    preco: 249.90,
+    genero: 'Esportes',
+    emoji: '⚽',
+  ),
+  Game(
+    id: '4',
+    nome: 'Cyberpunk 2077',
+    descricao: 'RPG futurista em uma megalópole distópica cheia de intrigas.',
+    preco: 179.90,
+    genero: 'RPG',
+    emoji: '🤖',
+  ),
+  Game(
+    id: '5',
+    nome: 'Mario Kart 8',
+    descricao: 'Corridas loucas com seus personagens favoritos da Nintendo.',
+    preco: 199.90,
+    genero: 'Corrida',
+    emoji: '🏎️',
+  ),
+  Game(
+    id: '6',
+    nome: 'God of War',
+    descricao: 'Kratos e Atreus em uma jornada épica pela mitologia nórdica.',
+    preco: 219.90,
+    genero: 'Ação',
+    emoji: '🪓',
+  ),
+  Game(
+    id: '7',
+    nome: 'Among Us',
+    descricao: 'Descubra o impostor antes que seja tarde demais.',
+    preco: 14.90,
+    genero: 'Casual',
+    emoji: '👾',
+  ),
+  Game(
+    id: '8',
+    nome: 'Elden Ring',
+    descricao: 'Soulslike em um vasto mundo aberto com narrativa de G.R.R. Martin.',
+    preco: 259.90,
+    genero: 'RPG',
+    emoji: '💀',
+  ),
+];
