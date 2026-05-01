@@ -92,6 +92,6 @@ final cart = Provider.of<CartProvider>(context, listen: false);
 
 ## 🛠️ Tecnologias
 
-- **Flutter** 3.x
-- **Dart** 3.x  
-- **Provider** 6.x
+- **Flutter** 3.41.9
+- **Dart** 3.11.5 
+- **Provider** 6.1.5+1
