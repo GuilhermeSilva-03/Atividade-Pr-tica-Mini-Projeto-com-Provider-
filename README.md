@@ -67,7 +67,7 @@ flutter run
 dependencies:
   flutter:
     sdk: flutter
-  provider: ^6.1.2
+  provider: ^6.1.5+1
 ```
 
 ---
